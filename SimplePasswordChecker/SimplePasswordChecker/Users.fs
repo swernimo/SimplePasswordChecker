@@ -1,6 +1,6 @@
 ﻿module Users
 
-type UserDTO = {
+type User = {
     Id: int
     Username: string
     Password: string

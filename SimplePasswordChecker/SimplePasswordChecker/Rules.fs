@@ -5,12 +5,6 @@ open DataAccess
 
 type Rule = string -> bool * string
 
-(*
-Create Rules for
-    3) No password reuse
-        a) query database for last 3 passwords
-*)
-
 let minLengthRule (pwd:string) =
     pwd.Length >= 8, "Password must be 8 characters long"
 
