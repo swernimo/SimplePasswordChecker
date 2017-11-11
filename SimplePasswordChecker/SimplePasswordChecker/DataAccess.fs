@@ -1,7 +1,6 @@
 ﻿module DataAccess
 
 open FSharp.Data
-open Users
 
 [<Literal>]
 let connectionString = @"some connection string"
