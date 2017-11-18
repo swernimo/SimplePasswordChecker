@@ -261,4 +261,5 @@ __pycache__/
 *.pyc
 
 # FSharp Script Files
-*.fsx
+**/*.fsx
+**/ScratchPad.fsx
