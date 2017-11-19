@@ -261,5 +261,7 @@ __pycache__/
 *.pyc
 
 # FSharp Script Files
+*.fsx
 **/*.fsx
-**/ScratchPad.fsx
+**/SimplePasswordChecker/SimplePasswordChecker/SimplePasswordChecker/ScratchPad.fsx
+**/SimplePasswordChecker/SimplePasswordChecker/ScratchPad.fsx
